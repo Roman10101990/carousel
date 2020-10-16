@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 60%;
+  margin: auto;
+  border: 5px solid black;
+  position:relative;
+  overflow:hidden;
+}
+.slider {
+  display: flex;
+  max-width: 100%;
+  
+}
+.slider img {
+  max-width: 100%;
+}
+
+.prevBtn{
+    position:absolute;
+    top:50%;
+    left:5%;
+    color:white;
+    z-index:100;
+    font-size:30px;
+}
+.nextBtn {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+
+    color: white;
+    z-index: 100;
+    font-size: 30px;
+}
